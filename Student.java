@@ -10,7 +10,7 @@ public class Student {
        
         Student student = new Student();
                 
-        student.name = "Nikhil";
+        student.name = "Mani";
     
         System.out.println(student.getName());
     }
