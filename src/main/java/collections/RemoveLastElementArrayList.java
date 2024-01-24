@@ -6,10 +6,10 @@ public class RemoveLastElementArrayList {
     public static void main(String[] args) {
         ArrayList<String> al = new ArrayList<>();
 
-        al.add("Sai");
-        al.add("Ram");
-        al.add("manoj");
-        al.add("pusala");
+        al.add("a");
+        al.add("b");
+        al.add("c");
+        al.add("d");
 
         String lastelement = removeLastElement(al);
         System.out.println("last element that is removed is : "+lastelement);

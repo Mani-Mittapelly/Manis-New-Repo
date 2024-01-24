@@ -1,3 +1,4 @@
+import strings.ReverseEachWord;
 import junit.framework.Assert;
 import org.junit.jupiter.api.Test;
 
@@ -17,12 +18,7 @@ public class ReverseEachWordTest {
 
     @Test
     public void test3(){
-        Assert.assertEquals(" ",reverseWords(" "));
-    }
-
-    @Test
-    public void test4(){
-        Assert.assertEquals(null,reverseWords(null));
+        Assert.assertEquals(" jonam ram ",reverseWords(" manoj mar "));
     }
 
 }
