@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import static strings.VowelCount.vowelCountMethod;
 
-public class vowelCountTest {
+public class VowelCountTest {
     @Test
     public void test1() {
         Assert.assertEquals(2, vowelCountMethod("manoj"));
