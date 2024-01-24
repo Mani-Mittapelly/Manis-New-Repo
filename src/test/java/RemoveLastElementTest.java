@@ -26,7 +26,7 @@ public class RemoveLastElementTest {
         al.add("y");
         al.add("z");
 
-        Assert.assertEquals("chandu",removeLastElement(al));
+        Assert.assertEquals("z",removeLastElement(al));
 
     }
 
@@ -34,11 +34,11 @@ public class RemoveLastElementTest {
     public void test3(){
         ArrayList<String> al = new ArrayList<>();
 
-        al.add("ha");
+        al.add("xx");
         al.add(null);
-        al.add("chandu");
+        al.add("zz");
 
-        Assert.assertEquals("chandu",removeLastElement(al));
+        Assert.assertEquals("z",removeLastElement(al));
 
     }
 }
