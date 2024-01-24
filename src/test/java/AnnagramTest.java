@@ -1,7 +1,7 @@
 import junit.framework.Assert;
 import org.junit.jupiter.api.Test;
 
-import static Strings.Anagrams.isAnnagrams;
+import static strings.Anagrams.isAnnagrams;
 
 public class AnnagramTest {
 

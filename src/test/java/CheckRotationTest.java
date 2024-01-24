@@ -2,7 +2,7 @@ import junit.framework.Assert;
 import org.junit.Test;
 
 
-import static Strings.CheckRotation.isRotated;
+import static strings.CheckRotation.isRotated;
 
 public class CheckRotationTest {
 

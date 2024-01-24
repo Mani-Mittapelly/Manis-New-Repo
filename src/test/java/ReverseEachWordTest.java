@@ -1,7 +1,7 @@
 import junit.framework.Assert;
 import org.junit.jupiter.api.Test;
 
-import static Strings.ReverseEachWord.reverseWords;
+import static strings.ReverseEachWord.reverseWords;
 
 public class ReverseEachWordTest {
 

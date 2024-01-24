@@ -1,7 +1,7 @@
 import junit.framework.Assert;
 import org.junit.jupiter.api.Test;
 
-import static Strings.VowelCount.vowelCountMethod;
+import static strings.VowelCount.vowelCountMethod;
 
 public class vowelCountTest {
     @Test
