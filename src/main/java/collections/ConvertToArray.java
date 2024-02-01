@@ -17,4 +17,7 @@ public class ConvertToArray {
             System.out.println(array[i]);
         }
     }
+    public static Object[] convertToArray(ArrayList<String> al){
+        return al.toArray();
+    }
 }

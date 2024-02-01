@@ -1,12 +1,13 @@
+package collectionsTest;
+
 import junit.framework.Assert;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 
-import static collections.RemoveLastElementArrayList.removeLastElement;
+import static collections.ConvertToArray.convertToArray;
 
-public class RemoveLastElementTest {
-
+public class ConvertToArrayTest {
     @Test
     public void test1(){
         ArrayList<String> al = new ArrayList<>();
@@ -15,18 +16,18 @@ public class RemoveLastElementTest {
         al.add("b");
         al.add("c");
 
-        Assert.assertEquals("manoj",removeLastElement(al));
+        Assert.assertTrue(convertToArray(al) instanceof  String[]);
 
     }
     @Test
     public void test2(){
         ArrayList<String> al = new ArrayList<>();
 
-        al.add("x");
-        al.add("y");
-        al.add("z");
+        al.add("d");
+        al.add("e");
+        al.add("f");
 
-        Assert.assertEquals("z",removeLastElement(al));
+        Assert.assertTrue(convertToArray(al) instanceof  String[]);
 
     }
 
@@ -34,11 +35,11 @@ public class RemoveLastElementTest {
     public void test3(){
         ArrayList<String> al = new ArrayList<>();
 
-        al.add("xx");
+        al.add("g");
         al.add(null);
-        al.add("zz");
+        al.add("h");
 
-        Assert.assertEquals("z",removeLastElement(al));
+        Assert.assertTrue(convertToArray(al) instanceof  String[]);
 
     }
 }

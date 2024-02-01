@@ -1,3 +1,5 @@
+package stringsTest;
+
 import strings.ReverseEachWord;
 import junit.framework.Assert;
 import org.junit.jupiter.api.Test;

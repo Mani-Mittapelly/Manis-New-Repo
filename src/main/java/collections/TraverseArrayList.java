@@ -7,11 +7,13 @@ public class TraverseArrayList {
     public static void main(String[] args) {
         ArrayList<String> al = new ArrayList<>();
 
-        al.add("Sai");
-        al.add("Ram");
-        al.add("manoj");
-        al.add("pusala");
+        al.add("a");
+        al.add("b");
+        al.add("c");
+        al.add("d");
 
+    }
+    public static boolean traverseList(ArrayList<String> al){
 
         System.out.println("Printing using regular for loop : ");
         for(int i =0;i<al.size();i++)
@@ -22,5 +24,6 @@ public class TraverseArrayList {
         for(String element : al)
             System.out.print(element+ " ");
 
+        return true;
     }
 }
